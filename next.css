@@ -51,6 +51,16 @@ html {
 	}
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-size: inherit;
+	margin: 0;
+}
+
+dl, ol, ul {
+	margin: 0;
+	padding: 0;
+}
+
 h1, p, ul {
 	margin-top: 1rem;
 }
@@ -181,6 +191,7 @@ time {
 .h-event .p-description ul { list-style-type: square; list-style-position: inside; }
 .h-event .p-description li { display: inline-block; position: relative; vertical-align: top; }
 .h-event .p-description li { margin-top: 0.25em; padding: 0 0.5em 0 1em; text-align: left; width: 50%; }
+.h-event .p-description li:only-child { width: 100%; }
 .h-event .p-description li::before { content: '■ '; position: absolute; left: 0; }
 
 @page {
