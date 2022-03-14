@@ -84,11 +84,6 @@ p, li {
 	text-align: justify;
 }
 
-@media print {
-	p, li {
-	}
-}
-
 a {
 	text-decoration: none;
 }
@@ -166,6 +161,12 @@ time {
 .h-resume .p-skill { margin-top: 1rem; }
 .h-resume .p-skill h1, .h-resume .p-experience h1 { font-size: 1.25rem; font-weight: 700; }
 
+.h-resume .p-skill ul {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 0.25rem 2rem;
+}
+
 .h-resume .p-affiliation { margin: 2rem auto 1rem; max-width: 80%; text-align: center; }
 
 .u-photo {
@@ -188,7 +189,7 @@ time {
 .h-event { list-style: none; margin-top: .75em; }
 .h-event .p-name { font-size: 1.25rem; font-weight: 700; }
 .h-event .p-description p { margin-top: 0.5rem; }
-.h-event .p-description ul { list-style-type: square; list-style-position: inside; }
+.h-event .p-description ul { display: flex; flex-wrap: wrap; list-style-type: square; list-style-position: inside; }
 .h-event .p-description li { display: inline-block; position: relative; vertical-align: top; }
 .h-event .p-description li { margin-top: 0.25em; padding: 0 0.5em 0 1em; text-align: left; width: 50%; }
 .h-event .p-description li:only-child { width: 100%; }
