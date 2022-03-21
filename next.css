@@ -111,17 +111,16 @@ time {
 
 @media print {
 	abbr[title] {
-		font-size: 0;
 		text-decoration: none;
 	}
 
-	abbr[title]::after {
+	/* abbr[title]::after {
 		content: attr(title);
 		display: inline-block;
 		font-size: 8pt;
 		letter-spacing: -0.01em;
 		opacity: 0.8;
-	}
+	} */
 
 	a {
 		color: inherit;
