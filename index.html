@@ -33,8 +33,8 @@
 
 		<span class="p-contact-col-3 p-adr h-adr">
 		<span hidden aria-hidden="false">My address is </span>
-			<a href="maps:q=Woodstock+GA+30188" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-				<span class="line"><span class="p-locality" itemprop="addressLocality">Atlanta</span> <span class="p-region" itemprop="addressRegion">GA</span><span hidden aria-hidden="false">, <span class="p-postal-code" itemprop="postalCode">30188</span></span></span>
+			<a href="maps:q=Savannah+GA+31407" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+				<span class="line"><span class="p-locality" itemprop="addressLocality">Savannah</span> <span class="p-region" itemprop="addressRegion">GA</span><span hidden aria-hidden="false">, <span class="p-postal-code" itemprop="postalCode">31407</span></span></span>
 			</a>
 		</span>
 	</header>
@@ -75,12 +75,12 @@
 				I prefer small, modular libraries.
 				I still like frameworks.
 				<!-- Facebook’s <a href="https://github.com/facebook/create-react-app" target="_target">React CRA</a> <a href="https://reactjs.org/blog/2018/10/01/create-react-app-v2.html#whats-new" target="_target">uses my libraries</a> and <a href="https://www.similartech.com/technologies/polyfillio">polyfill.io serves 100s of millions</a>.</li> -->
-				I’ve published 250+ <a href="https://www.npmjs.com/~jonathantneal" target="_blank">Node Modules</a>.
+				I’ve published 300+ <a href="https://www.npmjs.com/~jonathantneal" target="_blank">Node Modules</a>.
 				I also wrote <a href="https://jonneal.bandcamp.com/" target="_blank">a full-length album</a> about life in web development.
 			</li>
 			<li>
 				I love user experiences and care deeply about accessibility, internationalization, the <em>aural web</em>, <abbr title="Accessible Rich Internet Applications">ARIA</abbr>, and <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>.
-				I have chaired <a href="https://open-ui.org/">Open UI</a> and contributed to <a href="https://w3c.github.io/aria-practices/">WAI-ARIA Authoring Practices</a>.
+				I have chaired <a href="https://open-ui.org/">Open UI</a> and contributed to <a href="https://www.w3.org/WAI/ARIA/apg/practices/">WAI-ARIA Authoring Practices</a>.
 			<!-- <li>I love tests before builds, lints before commits, and continuous integration. Code correctness and uniformity save sprints. I browser test so much CrossBrowserTesting gave me a t-shirt.</li> -->
 			<!-- <li>I webpack, grunt, gulp, and yarn and npm, and I can even pat my head while rubbing my belly.</li> -->
 			<!-- <li>I’ve made <a href="https://www.youtube.com/watch?v=3R7tSSN2fHc" target="_blank">viral</a> <a href="https://www.youtube.com/watch?v=V09Mt66O9_c" target="_blank">videos</a> and <a href="https://jonneal.bandcamp.com/" target="_blank">musical scores</a> for <a href="http://yayquery.com/" target="_blank">wwwdev shows</a>. And I, too, dream of doing a podcast one day.</li> -->
@@ -94,13 +94,35 @@
 		<ul>
 			<li class="h-event" itemscope itemtype="https://schema.org/Event">
 				<h2 class="h-card">
+					<span itemprop="name" hidden>Rocket Communications, Inc.</span>
+					<span itemprop="location" itemscope itemtype="http://schema.org/Place">
+						<a class="p-name u-url" itemprop="name" href="https://www.rocketcom.com/" target="_blank">Rocket Communications, Inc.</a>
+						<a itemprop="address" itemscope itemtype="https://schema.org/PostalAddress" hidden href="maps:q=Savannah+GA+31407">
+							<span class="line"><span class="p-locality" itemprop="addressLocality">Savannah</span> <span class="p-region" itemprop="addressRegion">GA</span>, <span class="p-postal-code" itemprop="postalCode">31407</span></span>
+						</a>
+					</span> - <span class="p-summary p-job-title">Staff Engineer</span>
+
+					<span>(
+						<time class="dt-start" itemprop="startDate" datetime="2021-04-25">April 2022</time> -
+						<time class="dt-end" itemprop="endDate" datetime="2022-04-28">April 2023</time>
+					)</span>
+				</h2>
+				<div class="p-description" itemprop="description">
+					<ul>
+						<li>Rebuilt and revitalized the <a href="https://www.astrouxds.com/">documentation site for the Astro design system</a> for space applications, allowing richer content from our authors and interactive experiences for our users.</li>
+						<li>Helped to hire and build a new team of developers who continue to create and realize new experiences and features, and to maintain the Astro design system documentation site.</li>
+					</ul>
+				</div>
+			</li>
+			<li class="h-event" itemscope itemtype="https://schema.org/Event">
+				<h2 class="h-card">
 					<span itemprop="name" hidden>Pika Tech, Inc.</span>
 					<span itemprop="location" itemscope itemtype="http://schema.org/Place">
 						<a class="p-name u-url" itemprop="name" href="https://www.pika.dev/about" target="_blank">Pika Tech, Inc.</a>
 						<a itemprop="address" itemscope itemtype="https://schema.org/PostalAddress" hidden href="maps:q=Woodstock+GA+30188">
 							<span class="line"><span class="p-locality" itemprop="addressLocality">Woodstock</span> <span class="p-region" itemprop="addressRegion">GA</span>, <span class="p-postal-code" itemprop="postalCode">30188</span></span>
 						</a>
-					</span> - <span class="p-summary p-job-title">Senior Principal Consultant</span>
+					</span> - <span class="p-summary p-job-title">Senior Software Engineer</span>
 
 					<span>(
 						<time class="dt-start" itemprop="startDate" datetime="2021-10-18">October 2021</time> -
@@ -138,9 +160,9 @@
 				<div class="p-description" itemprop="description">
 					<ul>
 						<li>Introducing modularity, accessibility, internationalization, and helping shape development best practices.
-						<li>Introducing modern and next-generation JS and CSS in companion with tooling like <a href="https://github.com/babel/babel/tree/master/packages/babel-preset-env">Babel</a> and <a href="https://jonathantneal.github.io/postcss-preset-env/">PostCSS</a>.
+						<li>Introducing modern and next-generation JS and CSS in companion with tooling like <a href="https://babeljs.io/docs/babel-preset-env.html">Babel</a> and <a href="https://preset-env.cssdb.org/">PostCSS</a>.
 						<li>Developing new Esri <a href="https://www.esri.com/" target="_blank">homepage</a>, new <a href="https://www.esri.com/about/newsroom/publications/wherenext/" target="_blank">blogs</a>, and new company-wide web applications used across all sites.
-						<li>Developing new WeDeploy <a href="https://www.wedeploy.com/" target="_blank">homepage</a>. Introducing better CSS and SVG management and optimization.
+						<li>Developing new WeDeploy <a href="https://web.archive.org/web/20190514144402/https://wedeploy.com/" target="_blank">homepage</a>. Introducing better CSS and SVG management and optimization.
 						<li>Developing an asset manager frontend for handling 30 years of TED media.
 						<li>Developing a registration system used for upcoming TED conferences.
 					</ul>
@@ -150,7 +172,7 @@
 				<h2 class="h-card">
 					<span itemprop="name" hidden>Modulz, Inc.</span>
 					<span itemprop="location" itemscope itemtype="http://schema.org/Place">
-						<a class="p-name u-url" itemprop="name" href="https://www.pika.dev/about" target="_blank">Modulz, Inc.</a>
+						<a class="p-name u-url" itemprop="name" href="https://www.modulz.app/" target="_blank">Modulz, Inc.</a>
 						<a itemprop="address" itemscope itemtype="https://schema.org/PostalAddress" hidden href="maps:q=Woodstock+GA+30188">
 							<span class="line"><span class="p-locality" itemprop="addressLocality">Woodstock</span> <span class="p-region" itemprop="addressRegion">GA</span>, <span class="p-postal-code" itemprop="postalCode">30188</span></span>
 						</a>
@@ -261,7 +283,7 @@
 				</div>
 			</li>
 			-->
-			<li class="h-event" itemscope itemtype="https://schema.org/Event">
+			<!-- <li class="h-event" itemscope itemtype="https://schema.org/Event">
 				<h2 class="h-card">
 					<span itemprop="name" hidden>Liferay, Inc.</span>
 					<span itemprop="location" itemscope itemtype="http://schema.org/Place">
@@ -289,7 +311,7 @@
 						<li>Speaking at various events and symposia.
 					</ul>
 				</div>
-			</li>
+			</li> -->
 			<!--
 			<li class="h-event">
 				<h2 class="h-card">
@@ -333,6 +355,6 @@
 
 	<!-- <p class="p-affiliation">
 		You viewed source?
-		Here, listen to my music about life and the modern web (<a href="http://jonneal.bandcamp.com" target="_blank">jonneal.bandcamp.com/</a>).
+		Here, listen to my music about life and the modern web (<a href="http://jonneal.bandcamp.com/" target="_blank">jonneal.bandcamp.com/</a>).
 	</p> -->
 </body>
