@@ -186,7 +186,7 @@ time {
 .p-experience { margin-top: 1rem; }
 
 .h-event { list-style: none; margin-top: .75em; }
-.h-event .p-name { font-size: 1.25rem; font-weight: 700; }
+.h-event .p-name { font-size: 1.125rem; font-weight: 700; }
 .h-event .p-description p { margin-top: 0.5rem; }
 .h-event .p-description ul { display: flex; flex-wrap: wrap; list-style-type: square; list-style-position: inside; }
 .h-event .p-description li { display: inline-block; position: relative; vertical-align: top; }
